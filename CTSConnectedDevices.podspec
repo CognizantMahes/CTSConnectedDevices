@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'CTSConnectedDevices pod for connected devices using ble and other mediums'
 
-  s.homepage         = 'https://github.com/Maheswaran/CTSConnectedDevices'
+  s.homepage         = 'https://github.com/CognizantMahes/CTSConnectedDevices/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maheswaran' => 'maheswaran.c@cognizant.com' }
-  s.source           = { :git => 'https://github.com/Maheswaran/CTSConnectedDevices.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Maheswaran/CTSConnectedDevices.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
