@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* CTSConnectedDevices_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTSConnectedDevices_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64FDE5C46108290F887925E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		71FC59636BC8B65CDD4FC3D1 /* CTSConnectedDevices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CTSConnectedDevices.podspec; path = ../CTSConnectedDevices.podspec; sourceTree = "<group>"; };
+		64FDE5C46108290F887925E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71FC59636BC8B65CDD4FC3D1 /* CTSConnectedDevices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CTSConnectedDevices.podspec; path = ../CTSConnectedDevices.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9768CC3DB983B8D6505BB26A /* Pods-CTSConnectedDevices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTSConnectedDevices_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CTSConnectedDevices_Tests/Pods-CTSConnectedDevices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		97CA2148AAD4AEF4BAD58973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97CA2148AAD4AEF4BAD58973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9CC85C251B421A7E28936740 /* Pods-CTSConnectedDevices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTSConnectedDevices_Example.release.xcconfig"; path = "Target Support Files/Pods-CTSConnectedDevices_Example/Pods-CTSConnectedDevices_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A70798320170DD729211843C /* Pods_CTSConnectedDevices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTSConnectedDevices_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D057451CE3CDB10932CD49D0 /* Pods-CTSConnectedDevices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTSConnectedDevices_Example.debug.xcconfig"; path = "Target Support Files/Pods-CTSConnectedDevices_Example/Pods-CTSConnectedDevices_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				9768CC3DB983B8D6505BB26A /* Pods-CTSConnectedDevices_Tests.debug.xcconfig */,
 				0D601C5E67E1046FAEE1E3F3 /* Pods-CTSConnectedDevices_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
