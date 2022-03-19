@@ -35,5 +35,9 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Use Bluetooth ?</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Use Peripheral ?</string>
 </dict>
 </plist>

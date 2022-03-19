@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let bleMgr = CTSConnectedDeviceManager()
         bleMgr.printTestMethod()
+        bleMgr.start()
        
     }
 
